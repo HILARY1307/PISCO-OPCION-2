@@ -12,12 +12,20 @@
             margin: 0;
             padding: 0;
             text-align: center;
+            position: relative;
+        }
+        .background-logo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             background-image: url('URL_DE_TU_LOGO');
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
-            background-attachment: fixed;
             opacity: 0.2;
+            z-index: -1;
         }
         header {
             background-color: #8b5e3b;
@@ -64,6 +72,7 @@
     </style>
 </head>
 <body>
+    <div class="background-logo"></div>
     <header>
         <span>Don José - Pisco Artesanal</span>
         <nav>
@@ -78,8 +87,10 @@
         <h1>El Sabor de la Tradición</h1>
         <p>Don José es un pisco artesanal elaborado con dedicación en el anexo de Huatiapilla, combinando historia y calidad en cada botella.</p>
         <p>Descubre la esencia del auténtico pisco peruano, hecho con las mejores uvas y un proceso de destilación que resalta su pureza y sabor.</p>
-        <a href="https://wa.me/959672616" class="btn">Comprar por WhatsApp</a>
-        <a href="https://wa.me/971012589" class="btn">Comprar por WhatsApp</a>
+        <a href="https://wa.me/959672616" class="btn">Comprar Ahora</a>
     </div>
 </body>
 </html>
+
+
+
